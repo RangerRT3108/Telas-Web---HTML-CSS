@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Acompanhamento</title>
+    <link href="styles/telasPag.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Financiamento</a>
+        <a href="#">Acompanhamento</a>
+        <a href="#">Simulação</a>
+        <a href="#">Ajuda</a>
+    </div>
+    <br />
+
+    <h1>Financiamento</h1>
+    <!--ATENÇÃO ESTA TUDO EM TEXTO DEPOIUS PASSAR PARA A MOEDA-->
+
+    <label for="txtFinanciamento">Financiamento</label>
+    <input type="text" id="txtFinanciamento" name="txtFinanciamento" required /><br />
+    <label for="txtParcelas">  Parcelas</label>
+    <input type="text" id="txtParcelas" name="txtParcelas" required /><br />
+
+    <label for="dateInicial">  Data Inicial</label>
+    <input type="date" id="dateInicial" name="dateInicial" required /><br />
+    <label for="dateFinal">  Data Final</label>
+    <input type="date" id="dateFinal" name="dateFinal" required /><br /><br />
+    <label for="txtMoeda">Moeda</label>
+    <select style="border: 2px solid #ccc;background-color: white;width: 30%;padding: 8px 20px;margin: 8px 0;box-sizing: border-box"
+            id="txtMoeda" name="txtMoeda">
+        <option value="txtMoeda">Real</option>
+        <option value="txtMoeda">Dólar</option>
+        <option value="txtMoeda">Euro</option>
+        <option value="txtMoeda">BitCoin</option>
+    </select>
+    <br />
+    <br />
+    <label for="txtJuros">  Juros</label>
+    <input type="text" id="txtJuros" name="txtJuros" required /><br />
+    <label for="txtValorTotal">  Valor Total</label>
+    <input type="text" id="txtValorTotal" name="txtValorTotal" required /><br />
+
+    <label for="txtValorParcela">  Valor da Parcela</label>
+    <input type="text" id="txtValorParcela" name="txtValorParcela" required /><br />
+    <label for="dateVencimento">Vencimento</label>
+    <input type="date" id="dateVencimento" name="dateVencimento" placeholder="Aqui aparecerá a data de vencimento do boleto" required /><br />
+    <br /><br />
+    <label for="txt">situação do Financiamento Ex: Análise</label><br />
+    <!--situação do Financiamento Ex: Análise-->
+    <br /><br />
+    <label for="txt">Status do financiamento Ex: Pagando</label><br />
+    <!--Status do financiamento Ex: Pagando-->
+    <br />
+    <br /> 
+    <br />
+    <br />
+    <br />
+
+
+</body>
+</html>
